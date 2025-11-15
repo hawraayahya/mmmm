@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #efebe0; /* pale cream */
-    color: #806b63; /* muted brown */
+    background: #efebe0; 
+    color: #806b63; 
     padding-top: 65px;
     text-align: center;
 }
@@ -16,7 +16,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #e8c4c6; /* soft pink */
+    background: #e8c4c6; 
 }
 
 nav ul {
@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav a {
-    color: #efebe0; /* pale cream links */
+    color: #efebe0; 
     font-weight: bold;
     text-decoration: none;
 }
@@ -43,8 +43,8 @@ section {
 }
 
 .table th {
-    background-color: #e8c4c6; /* soft pink */
-    color: #efebe0; /* pale cream */
+    background-color: #e8c4c6; 
+    color: #efebe0; 
 }
 
 .table th, .table td {
@@ -62,7 +62,7 @@ section {
     margin-bottom: 20px;
 }
 
-/* Footer / Part 5 */
+
 #social-links {
     text-align: center;
     padding: 40px 0;
@@ -76,7 +76,7 @@ section {
 }
 
 .insta-icon {
-    width: 60px;
+    width: 30px;
     transition: 0.3s;
 }
 
