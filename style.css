@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI, Arial;
+}
+
+body {
+    background: #efebe0; /* pale cream */
+    color: #806b63; /* muted brown */
+    padding-top: 65px;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #e8c4c6; /* soft pink */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: #efebe0; /* pale cream links */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.table {
+    margin: 18px auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.table th {
+    background-color: #e8c4c6; /* soft pink */
+    color: #efebe0; /* pale cream */
+}
+
+.table th, .table td {
+    border: 1px solid #806b63;
+}
+
+.table img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#logo {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* Footer / Part 5 */
+#social-links {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #e8c4c6; /* soft pink */
+    color: #806b63; /* muted brown text */
+}
+
+#social-links h2 {
+    margin-botton: 15px;
+    color: #806b63;
+}
+
+.insta-icon {
+    width: 60px;
+    transition: 0.3s;
+}
+
+.insta-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
